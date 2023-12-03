@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+/* header-area */
+
+header {
+    background-color: #264653;
+    color: #fff;
+    padding: 80px 0;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* header-top-area */
+.header-top-area {
+    margin-bottom: 100px;
+}
+.header-mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header-mainmenu li {
+    display: inline-block;
+}
+
+.header-mainmenu ul li a {
+    display: block;
+    margin-left: 36px;
+}
+
+.boxed-btn {
+    background-color: #E76F51;
+    padding: 10px 24px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: -10px;
+}
+
+/* header-content */
+.header-title {
+    padding-right: 80px;
+}
+
+.header-title h2 {
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.header-img img{
+    width: 100%;
+    height: 100%;
+}
+
+/* footer */
+
+footer {
+    background-color: #0B0D17;
+    color: #fff;
+    padding: 56px 0 84px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-text a {
+    display: inline-block;
+    margin-right: 24px;
+    margin-bottom: 12px;
+}
+
+.footer-text ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 24px;
+}
+
+.footer-text li {
+    display: inline-block;
+}
+
+.footer-copyright-text {
+    font-size: 14px;
+    color: #D9DBE1;
+} 
+
+.footer-link-img h4 {
+    font-size: 18px;
+    color: #D9DBE1;
+    margin-bottom: 16px;
+}
+
+.footer-link-img img {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+/* main */
+
+/* fetured-bike-area */
+
+.fetured-bike-area {
+    padding: 65px 0;
+}
+
+.fetured-bike-area p {
+    color: #E76F51;
+    position: relative; 
+    font-size: 14px;
+    margin-bottom: 120px;
+}
+
+.fetured-bike-area p::after {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 58.5px;
+    background-color: #E76F51;
+    content: "";
+    height: 1px;
+    margin-left: -29.25px;
+}
+
+.fetured-bike-img img {
+    width: 288px;
+    height: 243px;
+}
+
+/* latest-new-area */
+
+.latest-new-area {
+    padding: 100px;
+}
+
+.latest-news-singel-item img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.latest-news-singel-item {
+    padding: 20px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.latest-news-singel-item h3 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.latest-news-singel-item p {
+    color: #6C6C6C;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+
+.bordered-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #E76F51;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 15px;
+    transition: .3s;
+}
+
+.bordered-btn:hover {
+    background-color: #E76F51;
+    color: #fff;
+}
+
+/* happy-clients-say */
+
+.happy-clients-say {
+    padding: 100px 0;
+}
+
+.happy-clients-say h2 span {
+    font-size: 48px;
+    color: #E76F51;
+}
+
+.happy-clients-single-team-member img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.happy-clients-single-team-member {
+    padding: 40px 35px;
+    border: 1px solid #DEDEDE;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.happy-clients-single-team-member p {
+    color: #6C6C6C;
+    margin-bottom: 15px;
+}
+
+.happy-client-icon img {
+    width: 22px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+a.happy-client-link {
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #23A6F0;
+}
+
+/* frequently-asked-question-area */
+
+.frequently-asked-question-area {
+    padding: 100px 0;
+}
+
+.frequently-asked-question-area h2 span {
+    font-size: 48px;
+    color: #E76F51;
+}
+
+.frequently-asked-img img {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 14px;
+}
+
+.accordion .accordion-item {
+    padding: 20px 24px;
+    margin-bottom: 20px;
+    border: 1px solid #D5E5FB;
+    border-radius: 5px;
+}
+
+.accordion-item .accordion-button {
+    background-color: transparent;
+    box-shadow: 0 0 0 0;
+    border-color: #D5E5FB;
+    font-size: 20px;
+    color: #383838;
+    padding: 0px;
+    font-weight: 500;
+}
+
+.accordion-item .accordion-body {
+    font-size: 16px;
+    color: #7E848C;
+    line-height: 28px;
+    padding: 0px;
+    margin-top: 8px;
+}
+
